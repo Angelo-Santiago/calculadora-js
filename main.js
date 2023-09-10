@@ -15,6 +15,14 @@ function clearResult(){
     document.getElementById('result').value = '0';
 }
 
+function aviso(){
+    window.alert("Acesse meu github para ver outros projetos")
+    
+}
+function link(){
+    window.location.href ='https://github.com/Angelo-Santiago?tab=repositories ' 
+}
+
 function calculate(){
     try {
         const result = eval(expression);
